@@ -14,13 +14,13 @@ alert("Tu as opté pour " + choix + "? Très bien...")
 // Phase ordinateur
 
 var choixOrdinateur = Math.random();
-        if (choixOrdinateur < 0.34) {
-            choixOrdinateur = "Pierre";
-        } else if(choixOrdinateur <= 0.67) {
-            choixOrdinateur = "Feuille";
-        } else {
-            choixOrdinateur = "Ciseaux";
-        }
+    if (choixOrdinateur < 0.34) {
+        choixOrdinateur = "Pierre";
+    } else if(choixOrdinateur <= 0.67) {
+        choixOrdinateur = "Feuille";
+    } else {
+        choixOrdinateur = "Ciseaux";
+    }
 alert("L'ordinateur a choisi" + " " + choixOrdinateur);
 
 // Phase de délibération
